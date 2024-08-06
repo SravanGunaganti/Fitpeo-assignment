@@ -49,12 +49,18 @@ body {
   margin: 0;
   padding: 0;
 }
-html {
-  overflow-y: scroll;
+html::webkit-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+html{
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
 ::-webkit-scrollbar {
   display: none;
 }
-/*  */
+::-webkit-scrollbar{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

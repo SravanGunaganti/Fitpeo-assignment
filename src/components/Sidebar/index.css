@@ -1,0 +1,23 @@
+.sidebar{
+    top:0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+
+}
+.sidebar::-webkit-scrollbar {
+    display: none;
+    
+}
+.grid-icon-1{
+    border-radius:50% 50% 50% 0;
+}
+.grid-icon-2{
+    border-radius:0% 50% 50% 50%;
+}
+.grid-icon-3{
+    border-radius:50% 50% 0% 50%;
+}
+.grid-icon-4{
+    border-radius:50% 0% 50% 50%;
+}
